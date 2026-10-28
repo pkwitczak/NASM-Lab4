@@ -1,0 +1,24 @@
+# Ignoruj Pliki wynikowe
+main
+build/
+*.o
+
+# Zostaw źródła ASM
+!src/
+!src/*.asm
+
+# Zostaw pliki projektowe
+!Makefile
+!README.md
+!.gitignore
+
+# Zostaw ustawienia VSCode
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# Zostaw ustawienia kontenera
+!.devcontainer/
+!.devcontainer/devcontainer.json
+!.devcontainer/Dockerfile
